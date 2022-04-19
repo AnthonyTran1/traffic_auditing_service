@@ -1,0 +1,12 @@
+C:\Users\Antho\source\repos\Project3\testing\bin\Debug\netcoreapp3.1\testing.exe
+C:\Users\Antho\source\repos\Project3\testing\bin\Debug\netcoreapp3.1\testing.deps.json
+C:\Users\Antho\source\repos\Project3\testing\bin\Debug\netcoreapp3.1\testing.runtimeconfig.json
+C:\Users\Antho\source\repos\Project3\testing\bin\Debug\netcoreapp3.1\testing.runtimeconfig.dev.json
+C:\Users\Antho\source\repos\Project3\testing\bin\Debug\netcoreapp3.1\testing.dll
+C:\Users\Antho\source\repos\Project3\testing\bin\Debug\netcoreapp3.1\testing.pdb
+C:\Users\Antho\source\repos\Project3\testing\obj\Debug\netcoreapp3.1\testing.AssemblyInfoInputs.cache
+C:\Users\Antho\source\repos\Project3\testing\obj\Debug\netcoreapp3.1\testing.AssemblyInfo.cs
+C:\Users\Antho\source\repos\Project3\testing\obj\Debug\netcoreapp3.1\testing.csproj.CoreCompileInputs.cache
+C:\Users\Antho\source\repos\Project3\testing\obj\Debug\netcoreapp3.1\testing.dll
+C:\Users\Antho\source\repos\Project3\testing\obj\Debug\netcoreapp3.1\testing.pdb
+C:\Users\Antho\source\repos\Project3\testing\obj\Debug\netcoreapp3.1\testing.genruntimeconfig.cache

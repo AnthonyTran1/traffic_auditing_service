@@ -1,0 +1,13 @@
+<Project Sdk="Microsoft.NET.Sdk.Worker">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+    <UserSecretsId>dotnet-DMVService-7725B43A-6BA8-4B67-9D85-D446536AF0F4</UserSecretsId>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="AWSSDK.SQS" Version="3.7.0.32" />
+    <PackageReference Include="Microsoft.Extensions.Hosting" Version="3.1.12" />
+    <PackageReference Include="Microsoft.Extensions.Hosting.WindowsServices" Version="3.1.12" />
+  </ItemGroup>
+</Project>

@@ -1,0 +1,16 @@
+C:\Users\Antho\source\repos\Project3\UploadData\bin\Debug\netcoreapp3.1\UploadData.exe
+C:\Users\Antho\source\repos\Project3\UploadData\bin\Debug\netcoreapp3.1\UploadData.deps.json
+C:\Users\Antho\source\repos\Project3\UploadData\bin\Debug\netcoreapp3.1\UploadData.runtimeconfig.json
+C:\Users\Antho\source\repos\Project3\UploadData\bin\Debug\netcoreapp3.1\UploadData.runtimeconfig.dev.json
+C:\Users\Antho\source\repos\Project3\UploadData\bin\Debug\netcoreapp3.1\UploadData.dll
+C:\Users\Antho\source\repos\Project3\UploadData\bin\Debug\netcoreapp3.1\UploadData.pdb
+C:\Users\Antho\source\repos\Project3\UploadData\bin\Debug\netcoreapp3.1\AWSSDK.Core.dll
+C:\Users\Antho\source\repos\Project3\UploadData\bin\Debug\netcoreapp3.1\AWSSDK.S3.dll
+C:\Users\Antho\source\repos\Project3\UploadData\obj\Debug\netcoreapp3.1\UploadData.AssemblyInfoInputs.cache
+C:\Users\Antho\source\repos\Project3\UploadData\obj\Debug\netcoreapp3.1\UploadData.AssemblyInfo.cs
+C:\Users\Antho\source\repos\Project3\UploadData\obj\Debug\netcoreapp3.1\UploadData.csproj.CoreCompileInputs.cache
+C:\Users\Antho\source\repos\Project3\UploadData\obj\Debug\netcoreapp3.1\UploadData.csproj.CopyComplete
+C:\Users\Antho\source\repos\Project3\UploadData\obj\Debug\netcoreapp3.1\UploadData.dll
+C:\Users\Antho\source\repos\Project3\UploadData\obj\Debug\netcoreapp3.1\UploadData.pdb
+C:\Users\Antho\source\repos\Project3\UploadData\obj\Debug\netcoreapp3.1\UploadData.genruntimeconfig.cache
+C:\Users\Antho\source\repos\Project3\UploadData\obj\Debug\netcoreapp3.1\UploadData.csprojAssemblyReference.cache

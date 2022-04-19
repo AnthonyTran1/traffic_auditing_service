@@ -1,0 +1,15 @@
+{
+  "version": 2,
+  "dgSpecHash": "/khoKFs2sP7HXVBkkykHaZkG6mF5rEhv9uenJ44pgYcLJzo0fx1H2qMcoqX8FhIpT4mClPZPhMvmxYEGcmsPkw==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\Antho\\source\\repos\\Project3\\TicketProcessingFunction\\TicketProcessingFunction.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Antho\\.nuget\\packages\\amazon.lambda.core\\1.2.0\\amazon.lambda.core.1.2.0.nupkg.sha512",
+    "C:\\Users\\Antho\\.nuget\\packages\\amazon.lambda.serialization.systemtextjson\\2.1.0\\amazon.lambda.serialization.systemtextjson.2.1.0.nupkg.sha512",
+    "C:\\Users\\Antho\\.nuget\\packages\\amazon.lambda.sqsevents\\1.2.0\\amazon.lambda.sqsevents.1.2.0.nupkg.sha512",
+    "C:\\Users\\Antho\\.nuget\\packages\\awssdk.core\\3.7.0.34\\awssdk.core.3.7.0.34.nupkg.sha512",
+    "C:\\Users\\Antho\\.nuget\\packages\\awssdk.simplenotificationservice\\3.7.2.3\\awssdk.simplenotificationservice.3.7.2.3.nupkg.sha512",
+    "C:\\Users\\Antho\\.nuget\\packages\\awssdk.translate\\3.7.0.32\\awssdk.translate.3.7.0.32.nupkg.sha512"
+  ],
+  "logs": []
+}

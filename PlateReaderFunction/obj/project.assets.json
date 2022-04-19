@@ -1,0 +1,327 @@
+{
+  "version": 3,
+  "targets": {
+    ".NETCoreApp,Version=v3.1": {
+      "Amazon.Lambda.Core/2.0.0": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.0/Amazon.Lambda.Core.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/Amazon.Lambda.Core.dll": {}
+        }
+      },
+      "Amazon.Lambda.S3Events/2.0.1": {
+        "type": "package",
+        "dependencies": {
+          "AWSSDK.S3": "3.7.0"
+        },
+        "compile": {
+          "lib/netcoreapp3.1/Amazon.Lambda.S3Events.dll": {}
+        },
+        "runtime": {
+          "lib/netcoreapp3.1/Amazon.Lambda.S3Events.dll": {}
+        }
+      },
+      "Amazon.Lambda.Serialization.SystemTextJson/2.1.0": {
+        "type": "package",
+        "dependencies": {
+          "Amazon.Lambda.Core": "1.2.0"
+        },
+        "compile": {
+          "lib/netcoreapp3.1/Amazon.Lambda.Serialization.SystemTextJson.dll": {}
+        },
+        "runtime": {
+          "lib/netcoreapp3.1/Amazon.Lambda.Serialization.SystemTextJson.dll": {}
+        }
+      },
+      "AWSSDK.Core/3.7.0.33": {
+        "type": "package",
+        "compile": {
+          "lib/netcoreapp3.1/AWSSDK.Core.dll": {}
+        },
+        "runtime": {
+          "lib/netcoreapp3.1/AWSSDK.Core.dll": {}
+        }
+      },
+      "AWSSDK.Rekognition/3.7.1.8": {
+        "type": "package",
+        "dependencies": {
+          "AWSSDK.Core": "[3.7.0.33, 4.0.0)"
+        },
+        "compile": {
+          "lib/netcoreapp3.1/AWSSDK.Rekognition.dll": {}
+        },
+        "runtime": {
+          "lib/netcoreapp3.1/AWSSDK.Rekognition.dll": {}
+        }
+      },
+      "AWSSDK.S3/3.7.1.3": {
+        "type": "package",
+        "dependencies": {
+          "AWSSDK.Core": "[3.7.0.33, 4.0.0)"
+        },
+        "compile": {
+          "lib/netcoreapp3.1/AWSSDK.S3.dll": {}
+        },
+        "runtime": {
+          "lib/netcoreapp3.1/AWSSDK.S3.dll": {}
+        }
+      },
+      "AWSSDK.SQS/3.7.0.32": {
+        "type": "package",
+        "dependencies": {
+          "AWSSDK.Core": "[3.7.0.33, 4.0.0)"
+        },
+        "compile": {
+          "lib/netcoreapp3.1/AWSSDK.SQS.dll": {}
+        },
+        "runtime": {
+          "lib/netcoreapp3.1/AWSSDK.SQS.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Amazon.Lambda.Core/2.0.0": {
+      "sha512": "V4fw3pYuP1LyUJThpbrbLwy2b4TH3CPYh5oId/CgJvGkX7lSAVyOEmkdGvDhpjegxnS4rgw6tP7faftVBO9jwQ==",
+      "type": "package",
+      "path": "amazon.lambda.core/2.0.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "amazon.lambda.core.2.0.0.nupkg.sha512",
+        "amazon.lambda.core.nuspec",
+        "lib/netstandard2.0/Amazon.Lambda.Core.dll",
+        "lib/netstandard2.0/Amazon.Lambda.Core.xml"
+      ]
+    },
+    "Amazon.Lambda.S3Events/2.0.1": {
+      "sha512": "PGEMrodAzXzfrQI0AAUP7Wckmh3AvdOsuNQVF0kVYAX1b3jI0YkAcIkixCzkheDHRf1SUF3ROFilYv+JO2SDhg==",
+      "type": "package",
+      "path": "amazon.lambda.s3events/2.0.1",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "amazon.lambda.s3events.2.0.1.nupkg.sha512",
+        "amazon.lambda.s3events.nuspec",
+        "lib/netcoreapp3.1/Amazon.Lambda.S3Events.dll",
+        "lib/netcoreapp3.1/Amazon.Lambda.S3Events.xml",
+        "lib/netstandard2.0/Amazon.Lambda.S3Events.dll",
+        "lib/netstandard2.0/Amazon.Lambda.S3Events.xml"
+      ]
+    },
+    "Amazon.Lambda.Serialization.SystemTextJson/2.1.0": {
+      "sha512": "q2R4I77NrrAHDpcaWby9VA/XhE1tjG/2kpredwucRq7k4dTPCqqB7OFmbiFdlfuErrp2/9+X1l62c4unwVicpw==",
+      "type": "package",
+      "path": "amazon.lambda.serialization.systemtextjson/2.1.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "amazon.lambda.serialization.systemtextjson.2.1.0.nupkg.sha512",
+        "amazon.lambda.serialization.systemtextjson.nuspec",
+        "lib/netcoreapp3.1/Amazon.Lambda.Serialization.SystemTextJson.dll",
+        "lib/netcoreapp3.1/Amazon.Lambda.Serialization.SystemTextJson.xml"
+      ]
+    },
+    "AWSSDK.Core/3.7.0.33": {
+      "sha512": "ABnGRXmGkSd9d8nPKsqLvJLtd9U/+1+60mYbR8mgWX5svmvui6TqBRefM799qOupSXkxt/RV0IMjjkX0f39S4g==",
+      "type": "package",
+      "path": "awssdk.core/3.7.0.33",
+      "hasTools": true,
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "awssdk.core.3.7.0.33.nupkg.sha512",
+        "awssdk.core.nuspec",
+        "lib/net35/AWSSDK.Core.dll",
+        "lib/net35/AWSSDK.Core.pdb",
+        "lib/net35/AWSSDK.Core.xml",
+        "lib/net45/AWSSDK.Core.dll",
+        "lib/net45/AWSSDK.Core.pdb",
+        "lib/net45/AWSSDK.Core.xml",
+        "lib/netcoreapp3.1/AWSSDK.Core.dll",
+        "lib/netcoreapp3.1/AWSSDK.Core.pdb",
+        "lib/netcoreapp3.1/AWSSDK.Core.xml",
+        "lib/netstandard2.0/AWSSDK.Core.dll",
+        "lib/netstandard2.0/AWSSDK.Core.pdb",
+        "lib/netstandard2.0/AWSSDK.Core.xml",
+        "tools/account-management.ps1"
+      ]
+    },
+    "AWSSDK.Rekognition/3.7.1.8": {
+      "sha512": "FyKfAqqnvPXCEk28fn3PTraGwNi/XUkyssjHW1DdwLwW704IuzckOqB4yaGWqqMoTIuu6WcNExercaWp/JBKgA==",
+      "type": "package",
+      "path": "awssdk.rekognition/3.7.1.8",
+      "hasTools": true,
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "analyzers/dotnet/cs/AWSSDK.Rekognition.CodeAnalysis.dll",
+        "awssdk.rekognition.3.7.1.8.nupkg.sha512",
+        "awssdk.rekognition.nuspec",
+        "lib/net35/AWSSDK.Rekognition.dll",
+        "lib/net35/AWSSDK.Rekognition.pdb",
+        "lib/net35/AWSSDK.Rekognition.xml",
+        "lib/net45/AWSSDK.Rekognition.dll",
+        "lib/net45/AWSSDK.Rekognition.pdb",
+        "lib/net45/AWSSDK.Rekognition.xml",
+        "lib/netcoreapp3.1/AWSSDK.Rekognition.dll",
+        "lib/netcoreapp3.1/AWSSDK.Rekognition.pdb",
+        "lib/netcoreapp3.1/AWSSDK.Rekognition.xml",
+        "lib/netstandard2.0/AWSSDK.Rekognition.dll",
+        "lib/netstandard2.0/AWSSDK.Rekognition.pdb",
+        "lib/netstandard2.0/AWSSDK.Rekognition.xml",
+        "tools/install.ps1",
+        "tools/uninstall.ps1"
+      ]
+    },
+    "AWSSDK.S3/3.7.1.3": {
+      "sha512": "WgxfTt/MYUl3i5HKaMkSRvjdHdqn660E1x+lqTmMWzmr0spJ8NyHH7k90zWz6jHLKMEkyEll0SpC/ky1pwn62Q==",
+      "type": "package",
+      "path": "awssdk.s3/3.7.1.3",
+      "hasTools": true,
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "analyzers/dotnet/cs/AWSSDK.S3.CodeAnalysis.dll",
+        "awssdk.s3.3.7.1.3.nupkg.sha512",
+        "awssdk.s3.nuspec",
+        "lib/net35/AWSSDK.S3.dll",
+        "lib/net35/AWSSDK.S3.pdb",
+        "lib/net35/AWSSDK.S3.xml",
+        "lib/net45/AWSSDK.S3.dll",
+        "lib/net45/AWSSDK.S3.pdb",
+        "lib/net45/AWSSDK.S3.xml",
+        "lib/netcoreapp3.1/AWSSDK.S3.dll",
+        "lib/netcoreapp3.1/AWSSDK.S3.pdb",
+        "lib/netcoreapp3.1/AWSSDK.S3.xml",
+        "lib/netstandard2.0/AWSSDK.S3.dll",
+        "lib/netstandard2.0/AWSSDK.S3.pdb",
+        "lib/netstandard2.0/AWSSDK.S3.xml",
+        "tools/install.ps1",
+        "tools/uninstall.ps1"
+      ]
+    },
+    "AWSSDK.SQS/3.7.0.32": {
+      "sha512": "0MXBR6PeXGALox8DwsSXP7Vu4ychfoGI3y/OBc+NxMFe1ks0KRi1GffssXERh8AmVQHdoDvyx0HIR4LA5i48rQ==",
+      "type": "package",
+      "path": "awssdk.sqs/3.7.0.32",
+      "hasTools": true,
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "analyzers/dotnet/cs/AWSSDK.SQS.CodeAnalysis.dll",
+        "awssdk.sqs.3.7.0.32.nupkg.sha512",
+        "awssdk.sqs.nuspec",
+        "lib/net35/AWSSDK.SQS.dll",
+        "lib/net35/AWSSDK.SQS.pdb",
+        "lib/net35/AWSSDK.SQS.xml",
+        "lib/net45/AWSSDK.SQS.dll",
+        "lib/net45/AWSSDK.SQS.pdb",
+        "lib/net45/AWSSDK.SQS.xml",
+        "lib/netcoreapp3.1/AWSSDK.SQS.dll",
+        "lib/netcoreapp3.1/AWSSDK.SQS.pdb",
+        "lib/netcoreapp3.1/AWSSDK.SQS.xml",
+        "lib/netstandard2.0/AWSSDK.SQS.dll",
+        "lib/netstandard2.0/AWSSDK.SQS.pdb",
+        "lib/netstandard2.0/AWSSDK.SQS.xml",
+        "tools/install.ps1",
+        "tools/uninstall.ps1"
+      ]
+    }
+  },
+  "projectFileDependencyGroups": {
+    ".NETCoreApp,Version=v3.1": [
+      "AWSSDK.Rekognition >= 3.7.1.8",
+      "AWSSDK.S3 >= 3.7.1.3",
+      "AWSSDK.SQS >= 3.7.0.32",
+      "Amazon.Lambda.Core >= 2.0.0",
+      "Amazon.Lambda.S3Events >= 2.0.1",
+      "Amazon.Lambda.Serialization.SystemTextJson >= 2.1.0"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\Antho\\.nuget\\packages\\": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "C:\\Users\\Antho\\source\\repos\\Project3\\PlateReaderFunction\\PlateReaderFunction.csproj",
+      "projectName": "PlateReaderFunction",
+      "projectPath": "C:\\Users\\Antho\\source\\repos\\Project3\\PlateReaderFunction\\PlateReaderFunction.csproj",
+      "packagesPath": "C:\\Users\\Antho\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Antho\\source\\repos\\Project3\\PlateReaderFunction\\obj\\",
+      "projectStyle": "PackageReference",
+      "configFilePaths": [
+        "C:\\Users\\Antho\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+      ],
+      "originalTargetFrameworks": [
+        "netcoreapp3.1"
+      ],
+      "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "projectReferences": {}
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      }
+    },
+    "frameworks": {
+      "netcoreapp3.1": {
+        "targetAlias": "netcoreapp3.1",
+        "dependencies": {
+          "AWSSDK.Rekognition": {
+            "target": "Package",
+            "version": "[3.7.1.8, )"
+          },
+          "AWSSDK.S3": {
+            "target": "Package",
+            "version": "[3.7.1.3, )"
+          },
+          "AWSSDK.SQS": {
+            "target": "Package",
+            "version": "[3.7.0.32, )"
+          },
+          "Amazon.Lambda.Core": {
+            "target": "Package",
+            "version": "[2.0.0, )"
+          },
+          "Amazon.Lambda.S3Events": {
+            "target": "Package",
+            "version": "[2.0.1, )"
+          },
+          "Amazon.Lambda.Serialization.SystemTextJson": {
+            "target": "Package",
+            "version": "[2.1.0, )"
+          }
+        },
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "frameworkReferences": {
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          }
+        },
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.400\\RuntimeIdentifierGraph.json"
+      }
+    }
+  }
+}

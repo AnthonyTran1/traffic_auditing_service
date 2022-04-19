@@ -1,0 +1,11 @@
+C:\Users\Antho\source\repos\Project3\PlateReaderFunction\bin\Release\netcoreapp3.1\publish\PlateReaderFunction.dll
+C:\Users\Antho\source\repos\Project3\PlateReaderFunction\bin\Release\netcoreapp3.1\publish\PlateReaderFunction.deps.json
+C:\Users\Antho\source\repos\Project3\PlateReaderFunction\bin\Release\netcoreapp3.1\publish\PlateReaderFunction.runtimeconfig.json
+C:\Users\Antho\source\repos\Project3\PlateReaderFunction\bin\Release\netcoreapp3.1\publish\PlateReaderFunction.pdb
+C:\Users\Antho\source\repos\Project3\PlateReaderFunction\bin\Release\netcoreapp3.1\publish\Amazon.Lambda.Core.dll
+C:\Users\Antho\source\repos\Project3\PlateReaderFunction\bin\Release\netcoreapp3.1\publish\Amazon.Lambda.S3Events.dll
+C:\Users\Antho\source\repos\Project3\PlateReaderFunction\bin\Release\netcoreapp3.1\publish\Amazon.Lambda.Serialization.SystemTextJson.dll
+C:\Users\Antho\source\repos\Project3\PlateReaderFunction\bin\Release\netcoreapp3.1\publish\AWSSDK.Core.dll
+C:\Users\Antho\source\repos\Project3\PlateReaderFunction\bin\Release\netcoreapp3.1\publish\AWSSDK.Rekognition.dll
+C:\Users\Antho\source\repos\Project3\PlateReaderFunction\bin\Release\netcoreapp3.1\publish\AWSSDK.S3.dll
+C:\Users\Antho\source\repos\Project3\PlateReaderFunction\bin\Release\netcoreapp3.1\publish\AWSSDK.SQS.dll

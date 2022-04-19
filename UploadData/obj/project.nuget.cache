@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "677G1DHpGQX8iAQitQx8q5GYlr9+qn9/KWS11WwT5ovpdt7UkWmmUsVGOsjp8UDAQGibxhuljCIFDkDdiPyd5A==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\Antho\\source\\repos\\Project3\\UploadData\\UploadData.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Antho\\.nuget\\packages\\awssdk.core\\3.7.0.32\\awssdk.core.3.7.0.32.nupkg.sha512",
+    "C:\\Users\\Antho\\.nuget\\packages\\awssdk.s3\\3.7.1.2\\awssdk.s3.3.7.1.2.nupkg.sha512"
+  ],
+  "logs": []
+}
